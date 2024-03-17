@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Makkhi's Surprise!</title>
+<style>
+  body { font-family: 'Comic Sans MS', cursive, sans-serif; text-align: center; padding-top: 50px; background-color: #f0f0f0; }
+  h1 { color: #555; }
+  .nickname { color: green; font-size: 22px; margin-top: 20px; }
+  .prank { color: blue; font-size: 24px; margin-top: 50px; }
+  .fly-animation { position: relative; animation: fly-around 5s infinite; }
+  @keyframes fly-around {
+    0% { top: 0px; left: 0px; }
+    25% { top: 200px; left: 200px; }
+    50% { top: 0px; left: 400px; }
+    75% { top: 200px; left: 600px; }
+    100% { top: 0px; left: 0px; }
+  }
+</style>
+</head>
+<body>
+  <h1>Welcome to Makkhi's World!</h1>
+  <div class="nickname">
+    <p>Also known as Aman, the "Housefly"</p>
+    <div class="fly-animation">🪰</div>
+  </div>
+  <div class="prank">
+    <p>Hey Aman, you've been officially dubbed as "Makkhi"!</p>
+    <p>Don't worry, it's all in good fun! 😄</p>
+  </div>
+  <script>
+    alert('Aman, aka Makkhi, there\'s something buzzing on this page just for you!');
+  </script>
+</body>
+</html>
